@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4CAF50;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+body {
+    background-image: url('https://www.childdevelopmentclinic.com.au/uploads/1/2/5/6/125622827/12d3b9a5215131b5fa6152a9ec3883e8_orig.jpg');
+    background-size:calc();
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1em;
+}
+
+button:hover {
+    background: #2980b9;
+}

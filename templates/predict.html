@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Trauma Model - Trauma Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Child Trauma Model</h1>
+    </header>
+    <main>
+        <div class="prediction-container" id="trauma-container">
+            <h2>Please complete the following details:</h2>
+            <form id="trauma-form" action="/predict" method="post">
+                <!-- Severity -->
+                <label for="severity">Severity:</label>
+                <select id="severity" name="severity" required>
+                    <option value="Mild">Mild</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="Severe">Severe</option>
+                </select><br>
+
+                <!-- Psychological Impact -->
+                <label for="psychological_impact">Psychological Impact:</label>
+                <select id="psychological_impact" name="psychological_impact" required>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select><br>
+
+                <!-- Previous Trauma History -->
+                <label for="previous_trauma_history">Previous Trauma History:</label>
+                <select id="previous_trauma_history" name="previous_trauma_history" required>
+                    <option value="None">None</option>
+                    <option value="Occasional">Occasional</option>
+                    <option value="Frequent">Frequent</option>
+                </select><br>
+
+                <!-- Medical History -->
+                <label for="medical_history">Medical History:</label>
+                <select id="medical_history" name="medical_history" required>
+                    <option value="None">None</option>
+                    <option value="Minor">Minor</option>
+                    <option value="Major">Major</option>
+                </select><br>
+
+                <!-- Therapy History -->
+                <label for="therapy_history">Therapy History:</label>
+                <select id="therapy_history" name="therapy_history" required>
+                    <option value="None">None</option>
+                    <option value="Some">Some</option>
+                    <option value="Extensive">Extensive</option>
+                </select><br>
+
+                <!-- Lifestyle Factors -->
+                <label for="lifestyle_factors">Lifestyle Factors:</label>
+                <select id="lifestyle_factors" name="lifestyle_factors" required>
+                    <option value="Healthy">Healthy</option>
+                    <option value="Average">Average</option>
+                    <option value="Poor">Poor</option>
+                </select><br>
+
+                <!-- Resilience Factors -->
+                <label for="resilience_factors">Resilience Factors:</label>
+                <select id="resilience_factors" name="resilience_factors" required>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select><br>
+
+                <!-- Exposure to Stressors -->
+                <label for="exposure_to_stressors">Exposure to Stressors:</label>
+                <select id="exposure_to_stressors" name="exposure_to_stressors" required>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select><br>
+
+                <!-- Sleep Patterns -->
+                <label for="sleep_patterns">Sleep Patterns:</label>
+                <select id="sleep_patterns" name="sleep_patterns" required>
+                    <option value="Regular">Regular</option>
+                    <option value="Irregular">Irregular</option>
+                </select><br>
+
+                <!-- Emotional Regulation -->
+                <label for="emotional_regulation">Emotional Regulation:</label>
+                <select id="emotional_regulation" name="emotional_regulation" required>
+                    <option value="Good">Good</option>
+                    <option value="Average">Average</option>
+                    <option value="Poor">Poor</option>
+                </select><br>
+
+                <button type="submit">Predict</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Starnley Mwange</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
